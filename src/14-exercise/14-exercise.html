@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assembler School jQuery Intro</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="./14-exercise.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul class="list">
+        <li class="list-item">
+          <a href="../../index.html">Home</a>
+        </li>
+      </ul>
+    </header>
+    <div>
+      <h1>Instructions</h1>
+      <p>
+        Complete the code of the function to append a <code>p</code> element
+        with the text content of <code>The values are empty</code> when the form
+        is submitted with no values in the input fields.
+      </p>
+      <p>
+        You can use the <code>jQuery</code> <code>val()</code> method to set and
+        read the text content of input elements.
+      </p>
+      <p>All steps should be done using <code>jQuery</code>.</p>
+      <p>
+        The <code>p</code> element should be
+        <strong
+          >appended as the last element child using <code>jQuery</code></strong
+        >.
+      </p>
+      <p>Example: <code>$("input").val()</code></p>
+    </div>
+    <div>
+      <hr />
+      <div class="ex-wrapper">
+        <form action="/" method="post" id="contact_form">
+          <label for="name">
+            Name
+            <input type="text" name="name" id="name" />
+          </label>
+          <label for="email">
+            Email
+            <input type="email" name="email" id="email" />
+          </label>
+          <button id="submit_btn">submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

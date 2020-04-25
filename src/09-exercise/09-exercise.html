@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assembler School jQuery Intro</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="./09-exercise.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul class="list">
+        <li class="list-item">
+          <a href="../../index.html">Home</a>
+        </li>
+      </ul>
+    </header>
+    <div>
+      <h1>Instructions</h1>
+      <p>
+        Set the <code>src</code> of the image to be the value in the
+        <code>data-lazy</code> attribute and remove the data attribute using the
+        jQuery <code>removeAttr</code> and <code>removeData</code> methods.
+      </p>
+      <p>
+        You can access <code>data</code> attributes using the
+        <code>data("dataname")</code> method.
+      </p>
+      <p>
+        To read the value of a data attribute use
+        <code>data("name") // reads the data-name value</code>.
+      </p>
+      <p>
+        To remove a data attribute you will need to use both jQuery
+        <code>removeAttr</code> and <code>removeData</code> methods.
+      </p>
+    </div>
+    <div>
+      <hr />
+      <div class="ex-wrapper">
+        <img data-lazy="https://i.picsum.photos/id/204/300/300.jpg" src="" />
+      </div>
+    </div>
+  </body>
+</html>

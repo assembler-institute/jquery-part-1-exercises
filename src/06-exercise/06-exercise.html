@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assembler School jQuery Intro</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="./06-exercise.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul class="list">
+        <li class="list-item">
+          <a href="../../index.html">Home</a>
+        </li>
+      </ul>
+    </header>
+    <div>
+      <h1>Instructions</h1>
+      <p>
+        Select all the <code>.ex-list-item</code> list elements with
+        <code>jQuery</code> and use the <code>each()</code> method to set the
+        background color to <code>blue</code> for each element.
+      </p>
+      <p>
+        The <code>each()</code> method accepts a function that receives two
+        elements <code>index, element</code> which you can use to execute a
+        function for each element.
+      </p>
+      <p>
+        <code>$("li").each(function(index, element) { //code })</code>
+      </p>
+    </div>
+    <div>
+      <hr />
+      <div class="ex-wrapper">
+        <ul class="ex-list">
+          <li class="ex-list-item">Lorem ipsum dolor.</li>
+          <li class="ex-list-item">Amet repellat nemo sequi.</li>
+          <li class="ex-list-item">Adipisicing elit.</li>
+          <li class="ex-list-item">Sturp elitis elin.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

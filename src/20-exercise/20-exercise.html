@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assembler School jQuery Intro</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="./20-exercise.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul class="list">
+        <li class="list-item">
+          <a href="../../index.html">Home</a>
+        </li>
+      </ul>
+    </header>
+    <div>
+      <h1>Instructions</h1>
+      <p>
+        Select all the list items from the list using <code>jQuery</code> and
+        use the <code>not</code> method to exclude the
+        <code>excluded</code> list element.
+      </p>
+      <p>
+        Set a background color of <code>red</code> for all the list items except
+        for the <code>excluded</code> list element.
+      </p>
+      <p>
+        You can use the <code>not()</code> method after executing a search with
+        <code>jQuery</code>.
+      </p>
+      <p><code>$("selector").not("selector")</code></p>
+      <p>
+        Excludes the items from the search result and keeps all the other items.
+      </p>
+    </div>
+    <div>
+      <hr />
+      <div class="ex-wrapper">
+        <ul class="ex-list">
+          <li class="ex-list-item">Lorem ipsum dolor.</li>
+          <li class="ex-list-item excluded">Amet repellat nemo sequi.</li>
+          <li class="ex-list-item">Adipisicing elit.</li>
+          <li class="ex-list-item">Sturp elitis elin.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
