@@ -1,7 +1,7 @@
 {
-  "name": "jquery-part-1-intro-pill",
+  "name": "jquery-part-1-exercises",
   "version": "1.0.0",
-  "description": "jquery-part-1-intro-pill",
+  "description": "jquery-part-1-exercises",
   "author": "Dani Lucaci <dani@assemblerschool.com>",
   "scripts": {
     "test": "jest --watchAll",
