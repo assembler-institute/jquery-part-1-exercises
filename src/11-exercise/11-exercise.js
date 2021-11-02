@@ -2,7 +2,7 @@ import $ from "jquery";
 
 function exercise11() {
   // Complete the code of the function
-  $("img").mouseover(function (e) {
+  $("img").on("mouseover", function (e) {
     $(e.target).css("border", "8px solid black");
   });
 }
