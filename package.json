@@ -4,19 +4,32 @@
   "description": "jquery-part-1-exercises",
   "author": "Dani Lucaci <dani@assemblerschool.com>",
   "scripts": {
-    "test": "jest --watchAll",
     "start": "parcel index.html --open",
+    "test": "jest --watchAll",
     "build": "parcel build index.html"
   },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "dependencies": {
-    "@types/jquery": "3.3.35",
-    "jquery": "^3.6.0"
+    "@types/jquery": "3.5.14",
+    "jquery": "3.6.0"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "@babel/preset-env": "^7.9.5",
-    "babel-jest": "^25.4.0",
-    "jest": "^25.4.0",
-    "parcel-bundler": "^1.12.4"
+    "@babel/core": "7.17.8",
+    "@babel/preset-env": "7.16.11",
+    "babel-jest": "27.5.1",
+    "jest": "27.5.1",
+    "jest-transform-stub": "2.0.0",
+    "parcel": "2.3.2"
   }
 }
